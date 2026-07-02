@@ -1,0 +1,54 @@
+{
+  "name": "optin-token",
+  "version": "1.0.0",
+  "description": "Dependency-free double-opt-in confirmation tokens + one-click (RFC 8058) unsubscribe headers. Web Crypto only — runs on Cloudflare Workers with no nodejs_compat, plus Deno, Bun, browsers, and Node 20+.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./token": "./token.mjs",
+    "./unsub": "./unsub.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "token.mjs",
+    "unsub.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "double-opt-in",
+    "opt-in",
+    "email-confirmation",
+    "confirmation-token",
+    "magic-link",
+    "unsubscribe",
+    "one-click-unsubscribe",
+    "rfc8058",
+    "rfc-8058",
+    "list-unsubscribe",
+    "hmac",
+    "signed-token",
+    "web-crypto",
+    "webcrypto",
+    "cloudflare-workers",
+    "workers",
+    "edge",
+    "serverless",
+    "newsletter",
+    "email",
+    "zero-dependencies"
+  ],
+  "author": "James Carroll",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimdc/optin-token.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
